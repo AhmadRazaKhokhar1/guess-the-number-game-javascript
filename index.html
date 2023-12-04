@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #userInput {
+        width: 300px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Guess The Number</h1>
+    <h5>Guess number between 0-100 and win by guessing right one</h5>
+
+    <form id="form" >
+      <input
+        type="number"
+        id="userInput"
+        required
+        placeholder="Enter your random number"
+      />
+      <input type="submit" value="Guess" />
+    </form>
+
+    <div id="result">
+      <h3>Result</h3>
+      <span id="message"></span>
+    </div>
+    <div id="previousEntries"></div>
+    <div id="retries"></div>
+  </body>
+</html>
